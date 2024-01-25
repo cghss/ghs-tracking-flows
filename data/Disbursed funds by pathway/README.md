@@ -1,22 +1,10 @@
-# Template
-This this a template for creating a SQL query analysis that outputs results tables in CSV format.
+# Disbursed funds by pathway
+This SQL query groups all funds disbursed between January 2016 and December 2022 by the transaction period (2016-2019 and 2020-2022), with a row for each stakeholder pathway. Stakeholders categories are described in the folder `data\stakeholder_categories`. 
 
-## Methodology narrative
-Write a short description of the methodology of the SQL query in this section.
+A value of 0 means that no funds for this pathway were disbursed in a given period. Values are provided in nominal USD, and rounded to the nearest dollar.
 
-## List of filters
-List the filter criteria used in the SQL query below.
-- Filter 1
-- ...
-- Filter N
-
+This .csv is used to produce Figure 1c.
 ## Terminal command to run analysis
 ```bash
 bash run.sh
 ```
-
-## Key takeaways from latest results
-List any key takeaways from your analysis of the results.
-- Takeaway 1
-- ...
-- Takeaway N
