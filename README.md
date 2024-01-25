@@ -1,16 +1,19 @@
 # ghs-tracking-flows
 Robertson et al. Follow the Money: A Global Analysis of Funding Dynamics for Global Health Security. Preprint forthcoming.
-An analysis of data from the Global Health Security Tracking database [(tracking.ghscosting.org)](https://tracking.ghscosting.org/)
+
+This repository contains all code and analysis for the paper, and provides static data from the Global Health Security Tracking database [(tracking.ghscosting.org)](https://tracking.ghscosting.org/)
 
 ## Getting started
 This repository is organized into four folders: [`data`](./data/), [`figures`](./figures/), [`scripts`](./scripts/), and [`util`](./util/). The [`data`](./data/) folder contains sub-folders, each with their own code and results. 
 
-Running the queries is not necessary to reproduce visualized results, as the results from the queries are provided as .csv files. 
+Running the queries is not necessary to reproduce visualized results, as the results from the queries (and the full database) are provided as .csv files. 
 
 However, if you wish to run queries, access to the GHS Tracking database server is required. The [`util`](./util/) folder is used to run the queries from terminal. Access to the GHS Tracking database server is required for this action, along with a configured `~/.pg_service.conf` file is required. Please reach out to us at [outbreaks@georgetown.edu](mailto:outbreaks@georgetown.edu) for more information.
 
 ## Running queries
 The directory [`data`](./data/) contains one directory per query. Each of those contains a `README.md` detailing the query. The code folders contain the individual SQL queries run to retrieve data from the GHS Tracking database server. The results folders contain the output .csv files. These data are the ones that power the visualization and figures, with code stored in the [`scripts`](./scripts/) folder.
+
+A static version of the database used for this analyais has been provided in the folder `data/Static GHS Tracking database`. Data was last updated in December 2022.
 
 ## Creating visualizations
 The directory [`scripts`](./scripts/) contains an .ipynb file, organized with headings and sub-headings per figure. To run this file, install all package requirements using pip or your preferred package installer. You may need to restart the kernel to access the packages. 
