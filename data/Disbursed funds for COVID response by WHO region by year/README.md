@@ -1,22 +1,9 @@
-# Template
-This this a template for creating a SQL query analysis that outputs results tables in CSV format.
+# Disbursed funds for COVID response by WHO region by year
+This SQL query groups all response funds disbursed between January 2020 and December 2022 with a tag for the COVID-19 PHEIC by WHO Region (AFRO, AMRO, EMRO, EURO, SEARO, WPRO). A value of 0 means that no funds for this region were disbursed for COVID-19 response in a given year. Values are provided in nominal USD.
 
-## Methodology narrative
-Write a short description of the methodology of the SQL query in this section.
-
-## List of filters
-List the filter criteria used in the SQL query below.
-- Filter 1
-- ...
-- Filter N
+This .csv is used to produce Figure 2c.
 
 ## Terminal command to run analysis
 ```bash
 bash run.sh
 ```
-
-## Key takeaways from latest results
-List any key takeaways from your analysis of the results.
-- Takeaway 1
-- ...
-- Takeaway N
