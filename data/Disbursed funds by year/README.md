@@ -1,22 +1,9 @@
-# Template
-This this a template for creating a SQL query analysis that outputs results tables in CSV format.
+# Disbursed funds by year
+This SQL query groups all funds disbursed between January 2016 and December 2022 by the transaction year, with a column for whether the transaction had specified core capacities or was unspecified (for capacity flows), or for response.  All stakeholders are included. A value of 0 means that no funds for this category were disbursed in a given year. Values are provided in nominal USD, and rounded to the nearest dollar.
 
-## Methodology narrative
-Write a short description of the methodology of the SQL query in this section.
-
-## List of filters
-List the filter criteria used in the SQL query below.
-- Filter 1
-- ...
-- Filter N
+This .csv is used to produce Figure 1a.
 
 ## Terminal command to run analysis
 ```bash
 bash run.sh
 ```
-
-## Key takeaways from latest results
-List any key takeaways from your analysis of the results.
-- Takeaway 1
-- ...
-- Takeaway N
