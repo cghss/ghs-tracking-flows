@@ -1,22 +1,9 @@
-# Template
-This this a template for creating a SQL query analysis that outputs results tables in CSV format.
+# Static GHS Tracking database
+This SQL query provides all flows disbursed between January 2016 and December 2022 by funder, recipient, event, core capacity, and core element (thematic area). Values are provided in nominal USD.
 
-## Methodology narrative
-Write a short description of the methodology of the SQL query in this section.
-
-## List of filters
-List the filter criteria used in the SQL query below.
-- Filter 1
-- ...
-- Filter N
+This .csv is not used to produce any figures specifically, although all data are a subset of this database. 
 
 ## Terminal command to run analysis
 ```bash
 bash run.sh
 ```
-
-## Key takeaways from latest results
-List any key takeaways from your analysis of the results.
-- Takeaway 1
-- ...
-- Takeaway N
