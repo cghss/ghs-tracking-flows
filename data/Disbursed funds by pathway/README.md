@@ -3,7 +3,7 @@ This SQL query groups all funds disbursed between January 2016 and December 2022
 
 A value of 0 means that no funds for this pathway were disbursed in a given period. Values are provided in nominal USD, and rounded to the nearest dollar.
 
-This .csv is used to produce Figure 1c.
+This .csv is used to produce Figures 3a and 3b.
 ## Terminal command to run analysis
 ```bash
 bash run.sh
