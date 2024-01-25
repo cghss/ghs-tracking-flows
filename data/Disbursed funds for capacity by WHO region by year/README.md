@@ -1,22 +1,9 @@
-# Template
-This this a template for creating a SQL query analysis that outputs results tables in CSV format.
+# Disbursed funds for capacity by WHO region by year
+This SQL query groups all capacity funds disbursed between January 2016 and December 2022 with specified core capacity tag grouped by WHO region (AFRO, AMRO, EMRO, EURO, SEARO, WPRO). A value of 0 means that no funds for this region were disbursed for any core capacity in a given year. Values are provided in nominal USD.
 
-## Methodology narrative
-Write a short description of the methodology of the SQL query in this section.
-
-## List of filters
-List the filter criteria used in the SQL query below.
-- Filter 1
-- ...
-- Filter N
+This .csv is used to produce Figure 1b.
 
 ## Terminal command to run analysis
 ```bash
 bash run.sh
 ```
-
-## Key takeaways from latest results
-List any key takeaways from your analysis of the results.
-- Takeaway 1
-- ...
-- Takeaway N
