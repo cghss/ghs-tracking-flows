@@ -1,5 +1,5 @@
 # ghs-tracking-flows
-Robertson et al. Follow the Money: A Global Analysis of Funding Dynamics for Global Health Security. Preprint forthcoming.
+Robertson et al. Follow the Money: A Global Analysis of Funding Dynamics for Global Health Security. Preprint available at: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4709948.
 
 This repository contains all code and analysis for the paper, and provides static data from the Global Health Security Tracking database [(tracking.ghscosting.org)](https://tracking.ghscosting.org/)
 
